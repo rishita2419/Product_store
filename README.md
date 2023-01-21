@@ -19,6 +19,19 @@ Run both JSON database to get data about users & products
   http://localhost:3000/users
   
   
+Below fundamentals implemented in the solution
+1) Router, Modules
+2) Components, Services 
+3) Lazy loading
+4) HttpClient API methods
+5) JSON database
+6) Directives
+7) custom Pipes
+8) 3rd party Library - Filter
+9) Bootstrap Framework
+10) Guards, SessionStorage
+11) data binding, interface
+  
  
   
   
