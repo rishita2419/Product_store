@@ -1,0 +1,172 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "green vegetables",
+            "price": "550",
+            "description": "natural green fresh vegetables",
+            "category":"vegetables",
+            "image":"https://images.unsplash.com/photo-1610348725531-843dff563e2c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHZlZ2V0YWJsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+            "rating": {
+                "star":"4.5",
+                "views":"150"
+            }
+        },
+        {
+            "id": 2,
+            "title": "daily use items",
+            "price": "400",
+            "description": "best branded items",
+            "category":"grocery",
+            "image":"https://m.media-amazon.com/images/I/71lPFwmdIIL._SX679_.jpg",
+            "rating": {
+                "star":"4.3",
+                "views":"200"
+            }
+        },
+        {
+            "id": 3,
+            "title": "wheat & mushroom",
+            "price": "350",
+            "description": "Hybrid beans",
+            "category":"grains",
+            "image":"https://m.media-amazon.com/images/I/914wFPtsNIL._SX679_.jpg",
+            "rating": {
+                "star":"3.2",
+                "views":"180"
+            }
+        },
+        {
+            "id": 4,
+            "title": "Cooker & glass",
+            "price": "700",
+            "description": "Stainless steel products",
+            "category":"cookware",
+            "image":"https://m.media-amazon.com/images/I/514M+UZ5bhL._SL1500_.jpg",
+            "rating": {
+                "star":"4.0",
+                "views":"350"
+            }
+        },
+        {
+            "id": 5,
+            "title": "Lipstick",
+            "price": "350",
+            "description": "Clinique Lipstick",
+            "category":"cosmetics",
+            "image":"https://images.unsplash.com/photo-1586495777744-4413f21062fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=415&q=80",
+            "rating": {
+                "star":"4.0",
+                "views":"300"
+            }
+        },
+        {
+            "id": 6,
+            "title": "washing Machine",
+            "price": "20000",
+            "description": "LG washing Machine",
+            "category":"homeAppliances",
+            "image":"https://rukminim1.flixcart.com/image/416/416/l0igvww0/washing-machine-new/m/b/3/-original-imagca64r8498vve.jpeg?q=70",
+            "rating": {
+                "star":"4.0",
+                "views":"1050"
+            }
+        },
+        {
+            "id": 7,
+            "title": "water Purifier",
+            "price": "11000",
+            "description": "Aqua Fresh",
+            "category":"homeAppliances",
+            "image":"https://rukminim1.flixcart.com/image/416/416/kah413k0/water-purifier/3/u/g/aqua-fresh-wave-copper-mineral-ro-uv-tds-15-l-original-imafsyu33e5y2jzn.jpeg?q=70",
+            "rating": {
+                "star":"4.0",
+                "views":"1050"
+            }
+        },
+        {
+            "id": 8,
+            "title": "Mixer",
+            "price": "3800",
+            "description": "ButterFly 750W Mixer & Grinder",
+            "category":"cookware",
+            "image":"https://rukminim1.flixcart.com/image/612/612/jqv8ia80/mixer-grinder-juicer/w/n/6/butterfly-arrow-original-imafcz43zxwekpzc.jpeg?q=70",
+            "rating": {
+                "star":"4.0",
+                "views":"350"
+            }
+        },
+        {
+            "id": 9,
+            "title": "Sandwich Maker",
+            "price": "1400",
+            "description": "Sandwich Maker with Floating Hinges,1000W, Grill / Toast",
+            "category":"cookware",
+            "image":"https://m.media-amazon.com/images/I/71nhNXvCOjL._SX522_.jpg",
+            "rating": {
+                "star":"4.0",
+                "views":"350"
+            }
+        },
+        {
+            "id": 10,
+            "title": "Sandwich Maker",
+            "price": "1400",
+            "description": "Sandwich Maker with Floating Hinges,1000W, Grill / Toast",
+            "category":"cookware",
+            "image":"https://m.media-amazon.com/images/I/71nhNXvCOjL._SX522_.jpg",
+            "rating": {
+                "star":"4.0",
+                "views":"350"
+            }
+        },
+        {
+            "id": 11,
+            "title": "Diapers & wipes",
+            "price": "1400",
+            "description": "Mammy-Poko pants, Extra absorbs",
+            "category":"kidsCare",
+            "image":"https://images-eu.ssl-images-amazon.com/images/G/31/img19/Baby/FJanuary/rs99Store/BabySBC/SBC-Tile-1.jpg ",
+            "rating": {
+                "star":"4.0",
+                "views":"350"
+            }
+        },
+        {
+            "id": 12,
+            "title": "Bath & skin care",
+            "price": "1400",
+            "description": "Himalaya baby lotion & baby oil ",
+            "category":"kidsCare",
+            "image":"https://images-eu.ssl-images-amazon.com/images/G/31/img19/Baby/FJanuary/rs99Store/BabySBC/SBC-Tile-2.jpg ",
+            "rating": {
+                "star":"4.0",
+                "views":"350"
+            }
+        },
+        {
+            "id": 13,
+            "title": "Feeding Supplies",
+            "price": "1400",
+            "description": "baby milk supplier,Philips",
+            "category":"kidsCare",
+            "image":"https://images-eu.ssl-images-amazon.com/images/G/31/img19/Baby/FJanuary/rs99Store/BabySBC/SBC-Tile-4.jpg ",
+            "rating": {
+                "star":"4.0",
+                "views":"350"
+            }
+        },
+        {
+            "id": 14,
+            "title": "Bed bedding",
+            "price": "1400",
+            "description": "Sleepy & Comfort bed for baby ",
+            "category":"kidsCare",
+            "image":"https://images-eu.ssl-images-amazon.com/images/G/31/img19/Baby/FJanuary/rs99Store/BabySBC/SBC-Tile-3.jpg ",
+            "rating": {
+                "star":"4.0",
+                "views":"350"
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start main">
+
+
+    <ul class="nav col-12 col-lg-auto ms-lg-auto me-3">
+      <li class="fs-4 fw-bolder">Shopping-Mart</li>
+    </ul>
+    
+    <!-- <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+    </form> -->
+
+    <div class="ms-md-auto me-4" *ngIf="!userLoggedIn">
+      <button type="button" class="btn btn-primary btn-outline-light me-2" data-bs-toggle="modal" data-bs-target="#exampleModal" >Login</button>
+    </div>
+
+    <div class="ms-md-auto me-4" *ngIf="userLoggedIn">
+      <a class="me-4 user" [routerLink]="['profile'] " > welcome {{userDetails.name}}! </a>
+      <button type="button" class="btn btn-warning btn-outline-light" (click)="clear()" >Logout</button>
+    </div>
+
+  </div>
+  
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-footer">
+        <button type="button" class="btn-close" #btnClose data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <app-sign-in *ngIf="actionType == 'signIn' " (actionEmit)="changeActionEmit1($event)"></app-sign-in>
+        <app-sign-up *ngIf="actionType == 'signUp' " (actionEmit)="changeActionEmit2($event)"></app-sign-up>
+      </div>
+
+    </div>
+  </div>
+</div>

@@ -1,0 +1,47 @@
+<form class="mx-4 my-2" [formGroup]=" registerForm " (ngSubmit)="registerFormData()">
+    <h2 class="mb-2">Create Account</h2>
+
+    <div class="mb-2 mt-4 px-2 mx-4">
+    <div class="mt-2">
+        <div class="form-group mb-2">
+            <label >Username</label>
+            <input type="email" class="form-control" formControlName="email">
+        </div>
+      
+        <div class="form-group mb-4">
+              <label >Mobile number</label>
+              <input type="number" class="form-control"  formControlName="mobile">
+        </div>
+      
+        <div class="form-group mb-2">
+
+            <input type="password" class="form-control" placeholder="Password" formControlName="password">
+            <div *ngIf="registerForm.errors?.['passwordMismatch']" class="invalid-feedback d-block">
+                <small>password mismatch</small>
+            </div>
+            <small class="form-text text-muted">Re-enter to confirm password</small>
+
+        </div>
+      
+        <div class="form-group mb-2">
+
+              <input type="password" class="form-control"  placeholder="Confirm Password" formControlName="confirmPassword">
+              <div *ngIf="registerForm.errors?.['passwordMismatch']" class="invalid-feedback d-block">
+                <small>confirm password mismatch</small>
+              </div>
+
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary form-control" [disabled]="!registerForm.valid" (click)="signUpData()" >Submit</button>
+    </div>
+
+    <div class="row my-2 text-center">
+        <h6 class="signUpTop"><span>Already have an account?</span></h6>
+        <button class="form-control btn text-bg-secondary signUp" (click)="emitAction()"> Sign in</button>
+    </div>
+
+  </form>
+
+
+  

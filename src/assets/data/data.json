@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "email": "sachin@gmail.com",
+      "name":"sachin",
+      "mobile": 1234567890,
+      "password": "1234",
+      "confirmPassword": "1234",
+      "id": 1
+    },
+    {
+      "email": "sachin1@gmail.com",
+      "name":"sachin1",
+      "mobile": 2345678901,
+      "password": "1234",
+      "confirmPassword": "4321",
+      "id": 2
+    },
+    {
+      "email": "sachin2@gmail.com",
+      "name":"sachin2",
+      "mobile": 34567890012,
+      "password": "1234",
+      "confirmPassword": "1234",
+      "id": 3
+    },
+    {
+      "email": "sachin3@gmail.com",
+      "name":"sachin3",
+      "mobile": 7890123456,
+      "password": "1234",
+      "confirmPassword": "sachu",
+      "id": 4
+    },
+    {
+      "email": "user@gmail.com",
+      "name":"user",
+      "mobile": 3698521470,
+      "password": "1234",
+      "confirmPassword": "121212",
+      "id": 5
+    }
+  ]
+}
