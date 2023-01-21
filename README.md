@@ -7,9 +7,8 @@ The follwing project is same as the given assignment.
  2) user can search product via product_category.
  3) Clicking on product category will show available products from that category
  4) Login options available
-    guest can signUp
-    User can signIn
-    e.g.  email = sachin@gmail.com   password = 1234
+    guest can signUp &  User can signIn
+ 5) e.g.  email = sachin@gmail.com   password = 1234  &  
               email = user@gmail.com   password = 1234
           
 
