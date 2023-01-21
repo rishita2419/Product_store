@@ -9,8 +9,8 @@ The follwing project is same as the given assignment.
  4) Login options available
     guest can signUp
     User can signIn
-    e.g.  email = sachin@gmail.com   password = 1234,
-          email = user@gmail.com   password = 1234
+    e.g.  email = sachin@gmail.com   password = 1234
+              email = user@gmail.com   password = 1234
           
 
 Run both JSON database to get data about users & products
