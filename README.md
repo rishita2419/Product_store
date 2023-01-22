@@ -11,8 +11,8 @@ The follwing project is same as the given assignment.
  5) e.g.  email = sachin@gmail.com   password = 1234  &  
               email = user@gmail.com   password = 1234
           
-
-Run both JSON database to get data about users & products
+Json files stored in assets/data folder.
+Run both JSON database to get data about users & products.
 
   http://localhost:3100/products ,
   http://localhost:3000/users
